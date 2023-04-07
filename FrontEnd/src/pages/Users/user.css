@@ -1,0 +1,27 @@
+.user-table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+.user-th, .user-td {
+    text-align: left;
+    padding: 8px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  .user-input, select {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-right: 10px;
+  }
+  .user-img {
+    border-radius: 50%;
+    max-width: 50px;
+  }
+  

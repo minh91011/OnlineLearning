@@ -1,0 +1,37 @@
+.wrapper {
+    width: 80%;
+    margin: 40px auto;
+}
+
+.course-img {
+    width: 300px;
+    display: block;
+    margin: 30px auto;
+    border-radius: 16px;
+    display: block;
+    object-fit: cover;
+    overflow: hidden;
+}
+
+.course-information {
+}
+.course-information span {
+    font-weight: 600;
+    font-size: 1.8rem;
+    display: block;
+    text-align: center;
+}
+
+.price {
+}
+
+.btn-enroll {
+    display: block;
+    margin: 20px auto;
+}
+
+.checkout {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}

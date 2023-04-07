@@ -1,0 +1,38 @@
+.actionButton button {
+    width: 100%;
+    align-items: center;
+    border-radius: 8px;
+    border-width: 0;
+    font-size: 1rem;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+}
+.confirmButton {
+    transition: all 0.2s;
+    height: 40px;
+    margin: 0 10px 0 0;
+    color: #fff;
+    background-color: #3bc9db;
+}
+.confirmButton:hover {
+    background-color: #1098ad;
+}
+.closeButton {
+    width: 100%;
+    align-items: center;
+    border-radius: 8px;
+    border-width: 0;
+    font-size: 1rem;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    transition: all 0.2s;
+    height: 40px;
+    margin: 0px;
+    color: #fff;
+    background-color: #e03131;
+}
+.closeButton:hover {
+    background-color: #ad2525;
+}

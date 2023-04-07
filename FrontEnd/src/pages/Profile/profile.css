@@ -1,0 +1,42 @@
+/* file styles.css */
+
+.profile.body {
+  font-family: Arial, sans-serif;
+}
+
+
+.profile-img {
+  border-radius: 50%;
+  max-width: 150px;
+}
+
+.profile-form {
+  margin-top: 20px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.profile-label,
+.profile.input {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.profile-button {
+  padding: 0.75rem 1.5rem;
+  border-radius: 0.25rem;
+  background-color: #007bff;
+  color: #ffffff;
+  border-color: #007bff;
+}
+
+.profile-button:hover {
+  background-color: #00d9cb;
+}
+.profile-container {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}

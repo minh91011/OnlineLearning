@@ -1,0 +1,181 @@
+/* #region post */
+.post--container {
+    margin: 0;
+    padding: 0;
+}
+.post {
+    box-shadow: 2px 2px 10px gray;
+    margin-top: 3%;
+    margin-left: 7%;
+    margin-right: 7%;
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-top: 2%;
+}
+.post--header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.post--user--image {
+    width: 45px;
+    height: 45px;
+    border: 0.5px solid;
+    border-radius: 50%;
+}
+.post--title {
+    margin-left: 10px;
+}
+.update--title {
+    border: 2px solid blue;
+    font-size: 150%;
+    font-weight: bold;
+}
+.update--content {
+    border: 1px solid blue;
+    font-size: 110%;
+    width: 100%;
+}
+.post--date {
+    opacity: 0.6;
+    margin-left: 10px;
+}
+.post--date:hover {
+    opacity: 1;
+}
+.post--header--right {
+    display: flex;
+    align-items: center;
+}
+.post--setting {
+    background-color: white;
+    height: 5vh;
+}
+.post--setting--button {
+    background-color: white;
+    padding: 10px;
+}
+
+.post--body {
+    padding: 2%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 130%;
+}
+.readMoreLess--button {
+    background-color: white;
+    padding-left: 5px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 80%;
+    font-weight: bold;
+    color: blue;
+    text-decoration: underline;
+}
+.post--footer {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 1%;
+}
+.post--vote {
+    margin-bottom: 3px;
+    margin-left: 10px;
+    display: flex;
+    align-items: center;
+}
+.post--vote > button {
+    background-color: white;
+}
+.upvote {
+    margin-right: 10px;
+    padding-bottom: 7px;
+    height: 25px;
+}
+.downvote {
+    height: 25px;
+}
+.blue {
+    color: blue;
+}
+.number {
+    font-size: 2.5vh;
+}
+.post--showComment {
+    background-color: white;
+    color: black;
+    padding: 7px;
+    font-size: 150%;
+    font-weight: bold;
+}
+.post--toggle--comment {
+    display: block;
+    margin: auto;
+    font-size: 130%;
+    color: blue;
+    background-color: white;
+    text-decoration: underline;
+}
+
+/* #endregion */
+
+/* #region CreatePost  */
+.post--create {
+    margin: 20px auto;
+    box-shadow: 2px 2px 10px gray;
+    width: 70%;
+}
+.post--create--form {
+    padding: 1% 5%;
+}
+.post--create--textArea {
+    resize: vertical;
+    width: 100%;
+    font-size: 110%;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 1%;
+}
+.title {
+    font-weight: bold;
+}
+.content {
+    height: 10vh;
+}
+.post--create--button {
+    display: block;
+    margin: 0 auto;
+    height: 5vh;
+    width: 8vw;
+    background-color: rgba(20, 115, 230, 255);
+    color: white;
+    padding: 7px;
+    font-size: 90%;
+    font-weight: bold;
+    transition: all 0.5s;
+}
+.post--create--button span:after {
+    content: '   》';
+    opacity: 0;
+    transform: 0.5s;
+}
+.post--create--button:active {
+    transition: 0.2s;
+    width: 7.5vw;
+    font-size: 70%;
+}
+.post--create--button:hover span:after {
+    opacity: 1;
+    transition: 0.5s;
+}
+
+/* #endregion  */
+
+/* #region show/hide comment */
+.show {
+    display: block;
+    transform: scaleY(1);
+    transition: transform 2s;
+}
+.hide {
+    display: none;
+    transform: scaleY(0);
+    transition: transform 2s;
+}
+/* #endregion */

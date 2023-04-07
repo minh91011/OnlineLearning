@@ -1,0 +1,98 @@
+.wrapper {
+    //  background-color: red;
+    width: 25%;
+    padding: 0 12px;
+    margin-bottom: 32px;
+}
+.course-item {
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 16px;
+    display: block;
+    object-fit: cover;
+    overflow: hidden;
+    padding-top: 56.25%;
+    position: relative;
+    width: 100%;
+
+    &:hover .btn {
+        cursor: pointer;
+        opacity: 0.9;
+    }
+}
+.btn {
+    background-color: #fff;
+    border-color: #fff;
+    border-radius: 999px;
+    color: #000;
+    left: 50%;
+    opacity: 0;
+    position: absolute;
+    top: 55%;
+    transform: translate(-50%, -50%);
+    transition: all 0.3s ease 0s;
+    // visibility: hidden;
+    z-index: 1;
+    display: inline-block;
+    font-size: 1.2rem;
+    font-weight: 600;
+    outline: none;
+    padding: 9px 16px;
+    text-align: center;
+}
+
+.course-item-add {
+    border: 3px dashed #e8e8e8;
+    border-radius: 16px;
+    display: block;
+    padding-top: 56.25%;
+    position: relative;
+    transition: 0.3s ease;
+    &:hover {
+        border: 3px dashed #b23939;
+        .icon {
+            color: #b23939;
+        }
+    }
+}
+.btn1 {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    display: inline-block;
+    border: 1px solid red;
+    border-radius: 999px;
+    font-size: 1.4rem;
+    font-weight: 600;
+    outline: none;
+    padding: 9px 16px;
+    text-align: center;
+    transition: 0.3s ease;
+    bottom: 20px;
+    color: red;
+    appearance: none;
+    cursor: pointer;
+}
+
+.icon {
+    color: #666;
+    overflow: visible;
+    box-sizing: content-box;
+    position: absolute;
+    left: 50%;
+    bottom: 50%;
+
+    transform: translateX(-50%) translateY(50%);
+}
+
+.student-count {
+    .icon-group {
+        vertical-align: -0.25em;
+    }
+    span {
+        font-size: 1.4rem;
+        color: #666;
+        margin-left: 2px;
+    }
+}

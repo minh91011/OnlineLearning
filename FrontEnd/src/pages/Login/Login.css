@@ -1,0 +1,41 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.form-group {
+    margin-bottom: 1.5rem;
+}
+
+.form-control {
+    width: 20rem;
+    padding: 0.75rem 1rem;
+    font-size: 1rem;
+    font-family: sans-serif;
+    border-radius: 0.25rem;
+    border: 1px solid #ced4da;
+}
+
+.btn {
+    padding: 0.75rem 1.5rem;
+    font-size: 1rem;
+    font-family: sans-serif;
+    border-radius: 0.25rem;
+    background-color: #007bff;
+    color: #ffffff;
+    border-color: #007bff;
+}
+
+.btn:hover {
+    background-color: #00d9cb;
+}
+
+.error {
+    color: red;
+    font-size: 1.2rem;
+    margin-top: 1rem;
+}
